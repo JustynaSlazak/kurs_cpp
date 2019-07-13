@@ -32,7 +32,7 @@ compiler:
 script:
   - mkdir build
   - cd build
-  - cmake ..
+  - g++
   - make
   - ./LogicalImages-ut
 
