@@ -2,12 +2,6 @@ language : cpp
 
 cache: ccache
 
-before_install:
-        -sudo apt-get --qq update
-        -sleep 10
-        -sudo apt-get install libslurm-dev
-before_script:
-        -export PATH=/usr/lib/ccache:$PATH
 os: linux
 
 addons: 
