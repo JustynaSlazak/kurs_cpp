@@ -9,7 +9,7 @@ addons:
                 packages:
                         g++
 scripts:
-        -g++ .travis.yml -o travis -Wall -Wextra -Werror -Wpedantic --std=c++17
+        - g++ .travis.yml -o travis -Wall -Wextra -Werror -Wpedantic --std=c++17
         
 
         
