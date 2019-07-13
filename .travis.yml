@@ -5,9 +5,9 @@ os: linux
 addons: 
         apt:
                 packages:
-                        -g++-7
+                        -g++
 scripts:
-        - CXX=/user/bin/g++-7
+        - CXX=/user/bin/g++
         - make
 
         
