@@ -1,1 +1,13 @@
 language : c++
+
+os: linux
+
+addons: 
+        apt:
+                packages:
+                        -g++-7
+scripts:
+        - CXX=/user/bin/g++-7
+        - make
+
+        
